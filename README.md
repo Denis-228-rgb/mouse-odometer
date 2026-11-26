@@ -1,30 +1,49 @@
-# Пробег курсора (Mouse Odometer)
+# Mouse Odometer
 
-Минималистичный виджет для Windows, который считает, сколько ты «проехал» мышью — на рабочем столе и в играх.
+A tiny Windows widget that counts how far your mouse has travelled — on the desktop and in games.
 
-![Версия](https://img.shields.io/badge/version-1.2%20Beta-blue)
+![version](https://img.shields.io/badge/version-1.3-blue) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey) ![license](https://img.shields.io/badge/license-MIT-green)
 
-## Что показывает
+![Mouse Odometer](https://raw.githubusercontent.com/Denis-228-rgb/mouse-odometer/main/screenshot.png)
 
-- Пробег курсора в километрах и метрах
-- Клики ЛКМ/ПКМ
-- Прокрутку колеса в метрах и километрах (5 см за один щелчок)
-- Достижения: 100 м → 500 м → 1 км → 5 км → 10 км → 21,1 км → 42,195 км → 100 км
-- Сравнения: автобус, футбольное поле, круг стадиона, марафон
-- Прогресс-бар «До Луны» (384 400 км)
+## What it shows
 
-## Запуск
+- Distance in kilometres and metres
+- Left and right click counters
+- Scroll wheel distance (5 cm per notch)
+- Achievements: 100 m → 500 m → 1 km → 5 km → 10 km → 21.1 km → 42.195 km → 100 km
+- Comparisons: a bus, a football field, a stadium lap, a marathon
+- A "to the Moon" progress bar (384,400 km)
 
-1. Скачай `Пробег курсора.exe` из раздела **Releases**.
-2. Запусти — установка не нужна.
-3. Подходит Windows 10/11, .NET Framework 4.8 уже в системе.
+## Run it
 
-Виджет живёт на рабочем столе и не всплывает поверх окон. Перетаскивается левой кнопкой. Правый клик — сброс, автозапуск, поддержка, выход. Данные хранятся в `%APPDATA%\MouseOdometer`.
+1. Download `Mouse Odometer.exe` from **Releases**.
+2. Run it — no installer, no admin rights.
+3. Windows 10/11, .NET Framework 4.8 is already included in the OS.
 
-## Поддержать проект
+The widget sits on the desktop and never covers your windows. Drag it with the left mouse button.
+Right click for the menu: reset, run at startup, language, support, exit.
+
+It tracks the mouse through Raw Input, so movement and clicks are counted even when a game has the cursor locked.
+Data lives in `%APPDATA%\MouseOdometer`.
+
+## Language
+
+The interface switches automatically: Russian on Russian Windows, English everywhere else.
+You can change it any time in the right-click menu.
+
+## Build from source
+
+```powershell
+& "$env:WINDIR\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /target:winexe /codepage:65001 /win32icon:app.ico /out:"Mouse Odometer.exe" MouseOdometer.cs
+```
+
+Single file, no NuGet packages, no .NET SDK required — just the C# compiler that ships with Windows.
+
+## Support the project
 
 [donationalerts.com/r/otvertka666](https://www.donationalerts.com/r/otvertka666)
 
-## Версия
+## License
 
-1.2 Beta
+MIT — see [LICENSE](LICENSE).
