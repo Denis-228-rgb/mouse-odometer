@@ -2,7 +2,7 @@
 
 Минималистичный виджет для Windows, который считает, сколько ты «проехал» мышью — на рабочем столе и в играх.
 
-![Версия](https://img.shields.io/badge/version-1.3-blue) ![Лицензия](https://img.shields.io/badge/license-MIT-green)
+![Версия](https://img.shields.io/badge/version-1.3%20Beta-blue) ![Лицензия](https://img.shields.io/badge/license-MIT-green)
 
 [English version](README.md)
 
