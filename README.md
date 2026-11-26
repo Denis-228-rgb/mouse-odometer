@@ -17,7 +17,7 @@ A tiny Windows widget that counts how far your mouse has travelled — on the de
 
 ## Run it
 
-1. Download `Mouse Odometer.exe` from **Releases**.
+1. Download `MouseOdometer.exe` from **Releases** (or `mouse-odometer-1.3.zip` if you prefer an archive).
 2. Run it — no installer, no admin rights.
 3. Windows 10/11, .NET Framework 4.8 is already included in the OS.
 
