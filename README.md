@@ -2,7 +2,7 @@
 
 A tiny Windows widget that counts how far your mouse has travelled — on the desktop and in games.
 
-![version](https://img.shields.io/badge/version-1.3-blue) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey) ![license](https://img.shields.io/badge/license-MIT-green)
+![version](https://img.shields.io/badge/version-1.3%20Beta-blue) ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey) ![license](https://img.shields.io/badge/license-MIT-green)
 
 ![Mouse Odometer](https://raw.githubusercontent.com/Denis-228-rgb/mouse-odometer/main/screenshot.png)
 
