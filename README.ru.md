@@ -17,7 +17,7 @@
 
 ## Запуск
 
-1. Скачай `Mouse Odometer.exe` из раздела **Releases**.
+1. Скачай `MouseOdometer.exe` из раздела **Releases** (или `mouse-odometer-1.3.zip`, если удобнее архив).
 2. Запусти — установка не нужна, права администратора тоже.
 3. Подходит Windows 10/11, .NET Framework 4.8 уже в системе.
 
